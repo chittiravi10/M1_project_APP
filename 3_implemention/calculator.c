@@ -1,4 +1,4 @@
-// Calculator example using C code
+// Calculator eaample using C code
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
@@ -6,7 +6,7 @@
 
 #define KEY "Enter the calculator Operation you want to do:"
 
-// Function prototype declaration
+
 void addition();
 void subtraction();
 void multiplication();
@@ -19,40 +19,40 @@ void calculator_operations();
 // Start of Main Program
 int main()
 {
-    int X=1;
-    char Calc_oprn;
+    int a=1;
+    char input;
 
     // Function call 
     calculator_operations();
 
-    while(X)
+    while(a)
     {
         printf("\n");
         printf("%s : ", KEY);
 
-        Calc_oprn=getche();
+        input=KEY ;
 
-        switch(Calc_oprn)
+        switch(input)
         {
-            case '+': addition();
+            case '0': addition();
                       break;
 
-            case '-': subtraction();
+            case '1': subtraction();
                       break;
 
-            case '*': multiplication();
+            case '2': multiplication();
                       break;
 
-            case '/': division();
+            case '3': division();
                       break;
 
-            case '?': modulus();
+            case '4': modulus();
                       break;
 
-            case '!': factorial();
+            case '5': factorial();
                       break;
 
-            case '^': power();
+            case '6': power();
                       break;
 
             case 'H':
@@ -69,10 +69,10 @@ int main()
 
             default : system("cls");
 
-    printf("\n**********You have entered unavailable option");
-    printf("***********\n");
-    printf("\n*****Please Enter any one of below available ");
-    printf("options****\n");
+    printf("\ninvalid input");
+   
+    printf("\n Enter any one of below available ");
+    printf("options\n");
                       calculator_operations();
         }
     }
@@ -88,18 +88,18 @@ void calculator_operations()
 
     printf("******* Press 'Q' or 'q' to quit ");
     printf("the program ********\n");
-    printf("***** Press 'H' or 'h' to display ");
+    printf("***** Press 'D' or 'd' to display ");
     printf("below options *****\n\n");
     printf("Enter 'C' or 'c' to clear the screen and");
     printf(" display available option \n\n");
 
-    printf("Enter + symbol for Addition \n");
-    printf("Enter - symbol for Subtraction \n");
-    printf("Enter * symbol for Multiplication \n");
-    printf("Enter / symbol for Division \n");
-    printf("Enter ? symbol for Modulus\n");
-    printf("Enter ^ symbol for Power \n");
-    printf("Enter ! symbol for Factorial \n\n");
+    printf("Enter 0 symbol for Addition \n");
+    printf("Enter 1 symbol for Subtraction \n");
+    printf("Enter 2 symbol for Multiplication \n");
+    printf("Enter 3 symbol for Division \n");
+    printf("Enter 4 symbol for Modulus\n");
+    printf("Enter 5 symbol for Power \n");
+    printf("Enter 6 symbol for Factorial \n\n");
 }
 
 void addition()
@@ -107,7 +107,7 @@ void addition()
     int n, total=0, k=0, number;
     printf("\nEnter the number of elements you want to add:");
     scanf("%d",&n);
-    printf("Please enter %d numbers one by one: \n",n);
+    printf(" enter %d numbers one by one: \n",n);
     while(k<n)
     { 
         scanf("%d",&number);
@@ -120,9 +120,9 @@ void addition()
 void subtraction()
 { 
     int a, b, c = 0; 
-    printf("\nPlease enter first number  : "); 
+    printf("\n enter first number  : "); 
     scanf("%d", &a); 
-    printf("Please enter second number : "); 
+    printf(" enter second number : "); 
     scanf("%d", &b); 
     c = a - b; 
     printf("\n%d - %d = %d\n", a, b, c); 
@@ -131,9 +131,9 @@ void subtraction()
 void multiplication()
 {
     int a, b, mul=0; 
-    printf("\nPlease enter first numb   : "); 
+    printf("\n enter first numb   : "); 
     scanf("%d", &a); 
-    printf("Please enter second number: "); 
+    printf(" enter second number: "); 
     scanf("%d", &b);
     mul=a*b;
     printf("\nMultiplication of entered numbers = %d\n",mul);
@@ -142,9 +142,9 @@ void multiplication()
 void division()
 {
     int a, b, d=0; 
-    printf("\nPlease enter first number  : "); 
+    printf("\n enter first number  : "); 
     scanf("%d", &a); 
-    printf("Please enter second number : "); 
+    printf(" enter second number : "); 
     scanf("%d", &b);
     d=a/b;
     printf("\nDivision of entered numbers=%d\n",d);
@@ -153,9 +153,9 @@ void division()
 void modulus()
 {
     int a, b, d=0; 
-    printf("\nPlease enter first number   : "); 
+    printf("\n enter first number   : "); 
     scanf("%d", &a); 
-    printf("Please enter second number  : "); 
+    printf(" enter second number  : "); 
     scanf("%d", &b);
     d=a%b;
     printf("\nModulus of entered numbers = %d\n",d);
@@ -185,7 +185,7 @@ int factorial()
 
     if (num<0)
     {
-        printf("\nPlease enter a positive number to");
+        printf("\n enter a positive number to");
         printf(" find factorial and try again. \n");
         printf("\nFactorial can't be found for negative");
         printf(" values. It can be only positive or 0  \n");
