@@ -1,0 +1,20 @@
+name: staticcheck
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: cppcheck_install
+      run: sudo apt-get -y install cppcheck
+    - name: staticcheck
+      run: cppcheck --enable-all 3_implementation
+    
