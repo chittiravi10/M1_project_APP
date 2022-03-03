@@ -16,5 +16,5 @@ jobs:
     - name: cppcheck_install
       run: sudo apt-get -y install cppcheck
     - name: static_check
-      run: cppcheck --enable-all 3_implementation
+      run: cppcheck --enable=all 3_implementation
     
