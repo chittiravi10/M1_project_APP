@@ -15,8 +15,8 @@
 #include<math.h>
 #include<stdlib.h>
 
-int addition();
-int subraction();
-int multiplication();
-int division();
+int addition(int a,int b);
+int subraction(int a1,int b1);
+int multiplication(int a2,int b2);
+int division(int a3,int b3);
 #endif

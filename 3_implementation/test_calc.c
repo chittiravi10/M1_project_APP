@@ -1,6 +1,6 @@
 #include "calculator.h"
 #include "unity.h"
-#include "calculator.c"
+#include "unity.internals.h"
 void setup()
 {
 
@@ -17,7 +17,11 @@ void test_addition(void)
 int main(void)
 {
     UNITY_BEGIN();
+
+
     RUN_TEST(test_addition);
+    
+    
     return UNITY_END();
 
 }

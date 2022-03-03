@@ -7,22 +7,23 @@ int main()
     char x=getchar();
     switch (x)
     {
+        int a2,b2;
     case '+': printf("enter numbers to be added (space between numbers is required) \ninput: ");
-              int l=addition();
-              printf("sum is :%d \n",l);
+              scanf("%d %d",&a2,&b2);
+              printf("sum is :%d \n",addition(a2,b2));
               break;
     case '-': printf("enter numbers to be subtracted (space between numbers is required) \ninput: ");
-              int s=subraction();
-              printf("sub is: %d \n",s);
+              scanf("%d %d",&a2,&b2);
+              printf("sub is: %d \n",subraction(a2,b2));
               break;
     
     case '*': printf("enter numbers to be multiplied (space between numbers is required) \ninput: ");
-              int m=multiplication();
-              printf("product is: %d \n",m);
+              scanf("%d %d",&a2,&b2);
+              printf("product is: %d \n",multiplication(a2,b2));
               break;
     case '/': printf("enter numbers to be divided (space between numbers is required) \ninput: ");
-              double d=division();
-              printf("quitoent is: %f \n",d);
+              scanf("%d %d",&a2,&b2);
+              printf("quitoent is: %d \n",division(a2,b2));
               break;
     
     case 'q': printf("thank you \n");
