@@ -1,4 +1,4 @@
-name: unity-test -unity
+name: unity-test
 
 on:
   push:
