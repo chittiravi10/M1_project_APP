@@ -1,5 +1,4 @@
-name: cppcheck
-
+name: staticcheck
 on:
   push:
     branches: [ main ]
