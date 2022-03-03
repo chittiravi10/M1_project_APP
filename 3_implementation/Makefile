@@ -37,4 +37,4 @@ dynamiccheck:Build
 coverage:
 	gcc -fprofile-arcs -ftest-coverage $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 	gcov -a ./$(call FixPath,$(PROJ_NAME).$(EXEC))
-	[![unity-test -unity](https://github.com/chittiravi10/M1_project_APP/actions/workflows/unity.yml/badge.svg)](https://github.com/chittiravi10/M1_project_APP/actions/workflows/unity.yml)
+	
