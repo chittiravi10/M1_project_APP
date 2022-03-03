@@ -1,0 +1,49 @@
+        -:    0:Source:src/calculator.c
+        -:    0:Graph:./calculator.gcno
+        -:    0:Data:-
+        -:    0:Runs:0
+        -:    1:#include"calculator.h"
+        -:    2:
+    #####:    3:int addition(int a,int b)
+        -:    4:{
+        -:    5:    
+    #####:    6:    int sum=0;
+        -:    7:
+    #####:    8:    sum=a+b;
+        -:    9:    
+    #####:   10:    return sum;
+    %%%%%:   10-block  0
+        -:   11:
+        -:   12:}
+    #####:   13:int subraction(int a1,int b1)
+        -:   14:{
+        -:   15:    
+    #####:   16:    int sub=0;
+    #####:   17:    sub=a1-b1;
+    #####:   18:    return sub;
+    %%%%%:   18-block  0
+        -:   19:
+        -:   20:}
+    #####:   21:int multiplication(int a2,int b2)
+        -:   22:{
+        -:   23:    
+        -:   24:    int mul;
+    #####:   25:    mul=a2*b2;
+    #####:   26:    return mul;
+    %%%%%:   26-block  0
+        -:   27:}
+    #####:   28:int division(int a3,int b3)
+        -:   29:{
+    #####:   30:    if(a3!=0 && b3!=0)
+    %%%%%:   30-block  0
+    %%%%%:   30-block  1
+        -:   31:    {
+    #####:   32:    int div=a3/b3;
+    #####:   33:    return div;
+    %%%%%:   33-block  0
+        -:   34:    }
+        -:   35:    else 
+    #####:   36:    return 0;
+    %%%%%:   36-block  0
+        -:   37:}
+        -:   38:
