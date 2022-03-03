@@ -1,4 +1,4 @@
-name: dynamic_check
+name: dynamiccheck
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: apt dependancy install
+    - name: valgrind install
       run: sudo apt-get -y install valgrind
-    - name: dynamic_check
+    - name: dynamiccheck
       run: make dynamiccheck -C 3_implementation

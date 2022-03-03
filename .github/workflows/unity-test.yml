@@ -1,4 +1,4 @@
-name: unity-test
+name: unitytest
 
 on:
   push:
@@ -13,5 +13,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: unity-test
-      run: make run_test -C 3_implementation
+    - name: unitytest
+      run: make -C 3_implementation
