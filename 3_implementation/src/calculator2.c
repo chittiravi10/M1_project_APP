@@ -32,7 +32,7 @@ int main()
 
 
     default: printf("invalid input \n");
-            main();
+            
             break;
     }
     
