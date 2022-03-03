@@ -1,3 +1,13 @@
+/**
+ * @file calculator.h
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2022-03-03
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #ifndef CALCULATOR_H_
 #define CALCULATOR_H_
 
@@ -9,5 +19,4 @@ int addition();
 int subraction();
 int multiplication();
 int division();
-int square();
 #endif

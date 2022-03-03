@@ -24,10 +24,7 @@ int main()
               double d=division();
               printf("quitoent is: %f \n",d);
               break;
-    case '^':  printf("enter numbers to be power (space between numbers is required) \ninput: ");
-               int u=square();
-               printf("power is : %d \n",u);
-               break;
+    
     case 'q': printf("thank you \n");
               exit;
               break;

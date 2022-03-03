@@ -2,8 +2,9 @@
 
 int addition()
 {
-    int a,b;
+    
     int sum=0;
+    int a,b;
     scanf("%d %d",&a,&b);
     sum=a+b;
     
@@ -40,12 +41,4 @@ int division()
     else 
     return 0;
 }
-int square()
-{
-    int a;
-    int p=1;
-    scanf("%d",&a);
-    p=p*a;
-    p=p*a;
-    return p;
-}
+
