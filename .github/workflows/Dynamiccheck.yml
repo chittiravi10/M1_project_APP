@@ -17,6 +17,6 @@ jobs:
       run: sudo apt-get update
     - name: valgrind install
       run: sudo apt-get install valgrind
-    - name: dynamic-check
-      run: make dynamiccheck 3_implementation
+    - name: dynamiccheck
+      run: make dynamiccheck -C 3_implementation
     
