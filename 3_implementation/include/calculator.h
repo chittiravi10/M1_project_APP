@@ -18,5 +18,5 @@
 int addition(int a,int b);
 int subraction(int a1,int b1);
 int multiplication(int a2,int b2);
-int division(int a3,int b3);
+float division(float a3,float b3);
 #endif

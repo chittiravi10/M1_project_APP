@@ -25,14 +25,15 @@ int multiplication(int a2,int b2)
     mul=a2*b2;
     return mul;
 }
-int division(int a3,int b3)
+float division(float a3,float b3)
 {
+    float div=0;
     if(a3!=0 && b3!=0)
     {
-    int div=a3/b3;
+    div=a3/b3;
     return div;
     }
     else 
-    return -9;
+    return 0;
 }
 

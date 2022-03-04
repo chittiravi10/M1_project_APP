@@ -26,8 +26,8 @@ void test_multiplication(void)
 }
 void test_division(void)
 {
-    TEST_ASSERT_EQUAL_INT(9,division(18,2));
-    TEST_ASSERT_EQUAL_INT_MESSAGE(-9,division(18,0),"INVALID");
+    TEST_ASSERT_EQUAL_FLOAT(9,division(18,2));
+    TEST_ASSERT_EQUAL_FLOAT_MESSAGE(0,division(18,0),"INVALID");
 }
 int main(void)
 {

@@ -8,6 +8,7 @@ int main()
     switch (x)
     {
         int a2,b2;
+        float a3,b3;
     case '+': printf("enter numbers to be added (space between numbers is required) \ninput: ");
               scanf("%d %d",&a2,&b2);
               printf("sum is :%d \n",addition(a2,b2));
@@ -22,14 +23,14 @@ int main()
               printf("product is: %d \n",multiplication(a2,b2));
               break;
     case '/': printf("enter numerator and denominator (space between numbers is required) \ninput: ");
-              scanf("%d %d",&a2,&b2);
-              if(b2==0)
+              scanf("%f %f",&a3,&b3);
+              if(b3==0)
               {
                   printf("invalid input \n '0' cant be the denominator\n");
               }
               else
 
-              printf("quitoent is: %d \n",division(a2,b2));
+              printf("quitoent is: %lf \n",division(a3,b3));
               break;
     
     case 'q': printf("thank you \n");
