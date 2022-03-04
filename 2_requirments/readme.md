@@ -1,2 +1,3 @@
 # High level and low level requirements
-![Screenshot (259)](https://user-images.githubusercontent.com/94339884/156768655-dcc95b43-0115-4961-b4b7-df2f564990cb.png)
+![image](https://user-images.githubusercontent.com/94339884/156775057-96afb7f9-cd74-4cdc-968a-d48e6858e213.png)
+
