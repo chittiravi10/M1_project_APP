@@ -13,8 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: updates
+      run: sudo apt-get update
     - name: valgrind install
-      run: sudo apt-get updates
       run: sudo apt-get install valgrind
     - name: dynamic-check
       run: make dynamiccheck 3_implementation
