@@ -13,6 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: sudoinstall
       run: sudo apt-get install cppcheck
     - name: staticcheck
       run: cppcheck --enable=all 3_implementation
