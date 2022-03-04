@@ -33,6 +33,6 @@ int division(int a3,int b3)
     return div;
     }
     else 
-    return 0;
+    return -9;
 }
 

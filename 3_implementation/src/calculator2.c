@@ -21,8 +21,14 @@ int main()
               scanf("%d %d",&a2,&b2);
               printf("product is: %d \n",multiplication(a2,b2));
               break;
-    case '/': printf("enter numbers to be divided (space between numbers is required) \ninput: ");
+    case '/': printf("enter numerator and denominator (space between numbers is required) \ninput: ");
               scanf("%d %d",&a2,&b2);
+              if(b2==0)
+              {
+                  printf("invalid input \n '0' cant be the denominator\n");
+              }
+              else
+
               printf("quitoent is: %d \n",division(a2,b2));
               break;
     
