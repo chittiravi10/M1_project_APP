@@ -1,23 +1,2 @@
-# Requirments
-# High level req
-## addition
-#### add multiple numbers 
-#### take only integer
-## subraction
-#### subtract numbers 
-#### take only integer
-## divison
-#### divide numbers 
-#### diff between numerator and denominator 
-#### gives out quitoent
-## multiplication 
-#### multiplication of num 
-#### takes only integer
-## power 
-#### calculate the power 
-#### takes only integer
-## factorial
-#### takes integer only
-#### gives the operation output
-## modulus
-##
+# High level and low level requirements
+![Screenshot (259)](https://user-images.githubusercontent.com/94339884/156768655-dcc95b43-0115-4961-b4b7-df2f564990cb.png)
